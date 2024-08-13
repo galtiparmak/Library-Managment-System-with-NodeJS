@@ -3,8 +3,6 @@ const userSchema = require('../schemas/userSchema');
 const scoreSchema = require('../schemas/scoreSchema');
 const sequelize = require('../config/database');
 
-// ... rest of the controller code
-
 
 const getAllUsers = async (req, res, next) => {
     try {

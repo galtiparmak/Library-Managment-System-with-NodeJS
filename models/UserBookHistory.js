@@ -1,4 +1,3 @@
-// models/UserBookHistory.js
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
 
@@ -19,7 +18,7 @@ const UserBookHistory = sequelize.define('UserBookHistory', {
     },
     returnedAt: {
         type: DataTypes.DATE,
-        allowNull: true, // Initially null, updated when the book is returned
+        allowNull: true,
     },
 });
 
