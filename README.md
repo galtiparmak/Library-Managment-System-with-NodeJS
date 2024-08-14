@@ -1,6 +1,7 @@
 INVENT-CASE STUDY
 
 Node version: v18.16.0
+Database: MYSQL
 
 This project is a library managment system implemented by node.js.
 
